@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  background-color: aquamarine;
+  height: 140px;
+}
+header img {
+  float:left;
+}
+
+header h1 {
+  margin-left:3em;
+  font-size:30px;
+  
+}
+div.container {
+  margin:auto;
+  height:800px;
+}
+
+div#results {
+  border: 1px solid red;
+  float: left;
+  height: 800px;
+  width: 400px;
+}
+
+div.images {
+border:1px solid green;
+
+}
+div.images img {
+
+  width:430px;
+  padding-top:20px;
+  padding-left:35px;
+  padding-right:35px;
+  margin-bottom: 30px;
+}
+
+div.text {
+  border:1px solid yellow;
+  margin-top:5em;
+  height:290px;
+}
+
+footer {
+  height: 140px;
+  background-color: aquamarine;
+}
