@@ -112,9 +112,6 @@ function renderResults() {
   }
   results.append(resultList);
 }
-
-    
-
 console.log(prodArray);
 
 
