@@ -76,20 +76,18 @@ function ranNum(max) {
   return Math.floor(Math.random() * max);
 }
 
-imgOne.addEventListener('click', eventHandler);
-imgTwo.addEventListener('click', eventHandler);
-imgThree.addEventListener('click', eventHandler);
 
 function eventHandler(e) {
   clicksActual++;
   //console.log('check-1');
-  if (clicksActual <= clicksMax) {
+  if (clicksActual < clicksMax) {
     for (var i = 0; i < prodArray.length; i++) {
       // console.log(e.target.alt);
       if (prodArray[i].name === e.target.alt) {
         prodArray[i].clicked++;
         //console.log('check 3');
         renderProduct();
+        break;
       }
     }
   } else if (clicksActual >= clicksMax) {
@@ -98,8 +96,11 @@ function eventHandler(e) {
     imgOne.removeEventListener('click',eventHandler);
     renderResults();
   }
-
+  
 }
+imgOne.addEventListener('click', eventHandler);
+imgTwo.addEventListener('click', eventHandler);
+imgThree.addEventListener('click', eventHandler);
 
 function renderResults() {
   var results = document.getElementById('results');
