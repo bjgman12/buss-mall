@@ -63,6 +63,13 @@ footer {
   background-color: aquamarine;
 }
 
+/* chart style */
+
+canvas{
+  height:300px;
+  width: 900px;
+}
+
 @media only screen and (max-width:1680px){
   div.images img {
     width:330px;
@@ -70,9 +77,10 @@ footer {
 
   div.container {
     margin:auto;
-    height:100vh;
+    height:960px;
     background-color:blue;
-    color:yellow
+    color:yellow;
+    overflow:auto;
   }
 }
 
@@ -87,3 +95,5 @@ footer {
  
   }
 }
+
+
