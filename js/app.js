@@ -40,7 +40,7 @@ else {
   new Product('chair', './img/chair.jpg');
   new Product('cthulhu', './img/cthulhu.jpg');
   new Product('dog-duck', './img/dog-duck.jpg');
-  new Product('dragon', './img/dog-duck.jpg');
+  new Product('dragon', './img/dragon.jpg');
   new Product('pen', './img/pen.jpg');
   new Product('pet-sweep', './img/pet-sweep.jpg');
   new Product('scissors', './img/scissors.jpg');
